@@ -5,4 +5,4 @@ This program is a simple Python application that takes a user's name and a numbe
 3. The program calculates the square of the entered number and prints a personalized message.
 
    Group Members:
-   Nick Francioni
+   Nick Francioni, Michael Puthumana
