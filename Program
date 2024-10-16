@@ -1,12 +1,12 @@
 def process_input():
-    name = input("Enter your name: ")
-    number_input = input("Enter a number: ")
+    name = input("Enter your name: ") #stores user's name
+    number_input = input("Enter a number: ") #stores user number
 
     try:
         number = float(number_input)
-        squared_value = number ** 2
-        print(f"Hello, {name}! The square of {number} is {squared_value}.")
+        squared_value = number ** 2 #calculate user number's square
+        print(f"Hello, {name}! The square of {number} is {squared_value}.") #prints out square
     except ValueError:
-        print("Please enter a valid number.")
+        print("Please enter a valid number.") #print statement for invalid input
 
 process_input()
